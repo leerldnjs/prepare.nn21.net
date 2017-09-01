@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Bu1" xml:space="preserve">
+    <value>1부 : 동물성생산품</value>
+  </data>
+  <data name="Bu10" xml:space="preserve">
+    <value>10부 : 펄프·종이</value>
+  </data>
+  <data name="Bu11" xml:space="preserve">
+    <value>11부 : 섬유와 그 제품</value>
+  </data>
+  <data name="Bu12" xml:space="preserve">
+    <value>12부 : 鞋子 帽子 雨伞</value>
+  </data>
+  <data name="Bu13" xml:space="preserve">
+    <value>13부 : 石 陶瓷 玻璃制品</value>
+  </data>
+  <data name="Bu14" xml:space="preserve">
+    <value>14부 : 진주·귀석·귀금속</value>
+  </data>
+  <data name="Bu15" xml:space="preserve">
+    <value>15부 : 비금속과 그 제품</value>
+  </data>
+  <data name="Bu16" xml:space="preserve">
+    <value>16부 : 기계류와 전기기기</value>
+  </data>
+  <data name="Bu17" xml:space="preserve">
+    <value>17부 : 차량·항공기·선박</value>
+  </data>
+  <data name="Bu18" xml:space="preserve">
+    <value>18부 : 광학·측정·시계·악기</value>
+  </data>
+  <data name="Bu19" xml:space="preserve">
+    <value>19부 : 武器</value>
+  </data>
+  <data name="Bu2" xml:space="preserve">
+    <value>2부 : 식물성 생산품</value>
+  </data>
+  <data name="Bu20" xml:space="preserve">
+    <value>20부 : 杂货</value>
+  </data>
+  <data name="Bu21" xml:space="preserve">
+    <value>21부 : 艺术品 古董品</value>
+  </data>
+  <data name="Bu3" xml:space="preserve">
+    <value>3부 : 동·식물성유지</value>
+  </data>
+  <data name="Bu4" xml:space="preserve">
+    <value>4부 : 조제식료품</value>
+  </data>
+  <data name="Bu5" xml:space="preserve">
+    <value>5부 : 광물성 생산품</value>
+  </data>
+  <data name="Bu6" xml:space="preserve">
+    <value>6부 : 化学工业 生产品</value>
+  </data>
+  <data name="Bu7" xml:space="preserve">
+    <value>7부 : 塑料和橡胶</value>
+  </data>
+  <data name="Bu8" xml:space="preserve">
+    <value>8부 : 牛皮 皮革 毛皮</value>
+  </data>
+  <data name="Bu9" xml:space="preserve">
+    <value>9부 : 木材及木制品</value>
+  </data>
+  <data name="Buseo" xml:space="preserve">
+    <value>部属</value>
+    <comment>5</comment>
+  </data>
+  <data name="BusinessType1" xml:space="preserve">
+    <value>法人</value>
+    <comment>5</comment>
+  </data>
+  <data name="BusinessType1Detail" xml:space="preserve">
+    <value>法人</value>
+  </data>
+  <data name="BusinessType2" xml:space="preserve">
+    <value>個人</value>
+    <comment>5</comment>
+  </data>
+  <data name="BusinessType2Detail" xml:space="preserve">
+    <value>個人</value>
+  </data>
+  <data name="Damdangja" xml:space="preserve">
+    <value>担当者登录</value>
+    <comment>5</comment>
+  </data>
+  <data name="DirectTEL" xml:space="preserve">
+    <value>直通电话</value>
+  </data>
+  <data name="Distribution" xml:space="preserve">
+    <value>流通</value>
+    <comment>5</comment>
+  </data>
+  <data name="Duties" xml:space="preserve">
+    <value>职   责</value>
+    <comment>5</comment>
+  </data>
+  <data name="Jikmu" xml:space="preserve">
+    <value>职务</value>
+    <comment>5</comment>
+  </data>
+  <data name="Jikwi" xml:space="preserve">
+    <value>职位</value>
+    <comment>5</comment>
+  </data>
+  <data name="JuminNo" xml:space="preserve">
+    <value>住民登录号码</value>
+  </data>
+  <data name="MainTitleChn" xml:space="preserve">
+    <value>중국국적자 상세등록</value>
+  </data>
+  <data name="MainTitleKor" xml:space="preserve">
+    <value>韓國國籍者 詳細登錄</value>
+  </data>
+  <data name="MajorItem" xml:space="preserve">
+    <value>主要办理物品</value>
+  </data>
+  <data name="MustAddress" xml:space="preserve">
+    <value>输入地址</value>
+  </data>
+  <data name="MustCompanyName" xml:space="preserve">
+    <value>必须填写公司名</value>
+  </data>
+  <data name="MustPresidentName" xml:space="preserve">
+    <value>必须填写法人名</value>
+  </data>
+  <data name="MustSelectLocal" xml:space="preserve">
+    <value>选择地区</value>
+  </data>
+  <data name="Production" xml:space="preserve">
+    <value>生产</value>
+    <comment>5</comment>
+  </data>
+  <data name="Saler" xml:space="preserve">
+    <value>销售</value>
+    <comment>5</comment>
+  </data>
+  <data name="SaupjaGubun" xml:space="preserve">
+    <value>事业者区分</value>
+  </data>
+  <data name="SaupjaNo" xml:space="preserve">
+    <value>营业执照</value>
+    <comment>5</comment>
+  </data>
+  <data name="SelectionBu" xml:space="preserve">
+    <value>부 선택 </value>
+  </data>
+  <data name="SelectionRyu" xml:space="preserve">
+    <value>류 선택</value>
+  </data>
+  <data name="StaffAdd" xml:space="preserve">
+    <value>负责人登錄</value>
+  </data>
+  <data name="Upjong" xml:space="preserve">
+    <value>业种</value>
+    <comment>5</comment>
+  </data>
+  <data name="Upmu" xml:space="preserve">
+    <value>业务分类</value>
+    <comment>5</comment>
+  </data>
+  <data name="Uptae" xml:space="preserve">
+    <value>营业范围</value>
+    <comment>5</comment>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="WriterName" xml:space="preserve">
+    <value>登錄人姓名</value>
+  </data>
+  <data name="WrongCompanyEmail" xml:space="preserve">
+    <value>输入公司代表邮箱是必须事项</value>
+  </data>
+  <data name="WrongCompanyFAX" xml:space="preserve">
+    <value>输入正确的公司传真号码</value>
+  </data>
+  <data name="WrongCompanyTEL" xml:space="preserve">
+    <value>输入正确的公司电话号码</value>
+  </data>
+  <data name="WrongSaupjaNo" xml:space="preserve">
+    <value>请填写准确的营业执照编码</value>
+  </data>
+</root>

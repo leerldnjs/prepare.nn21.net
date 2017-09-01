@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Branch.master.cs" Inherits="ViewShare_Branch" %>
+
+<%@ Register Src="~/ViewShare/Top_Navigation.ascx" TagPrefix="uc1" TagName="Top_Navigation" %>
+<%@ Register Src="~/ViewShare/Left_Navigation.ascx" TagPrefix="uc1" TagName="Left_Navigation" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>International Logistics</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="../Lib/Branch/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="../Lib/Branch/css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="../Lib/Branch/css/font-awesome.min.css" type="text/css" />
+	<link rel="stylesheet" href="../Lib/Branch/css/icon.css" type="text/css" />
+	<link rel="stylesheet" href="../Lib/Branch/css/font.css" type="text/css" />
+	<link rel="stylesheet" href="../Lib/Branch/css/app.css" type="text/css" />
+
+	<style type="text/css">
+		.form-control{
+
+		}
+
+	</style>
+	<!--[if lt IE 9]>
+    <script src="/Lib/Scale/js/ie/html5shiv.js"></script>
+    <script src="/Lib/Scale/js/ie/respond.min.js"></script>
+    <script src="/Lib/Scale/js/ie/excanvas.js"></script>
+  <![endif]-->
+	<asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+	<section class="vbox">
+		<uc1:Top_Navigation runat="server" ID="Top_Navigation" />
+		<section class="hbox stretch">
+			<aside class="bg-light lt b-r b-light aside hidden-print " id="nav">
+				<section class="vbox">
+					<uc1:Left_Navigation runat="server" ID="Left_Navigation" />
+				</section>
+			</aside>
+			<asp:ContentPlaceHolder ID="Contents" runat="server"></asp:ContentPlaceHolder>
+		</section>
+	</section>
+
+
+	<script src="../Lib/Branch/js/jquery.min.js"></script>
+	<script src="../Lib/Branch/js/bootstrap.js"></script>
+	<script src="../Lib/Branch/js/app.js"></script>
+	<%--<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>--%>
+	<script src="../Lib/Work.js?version=1"></script>
+	<script src="../Lib/JqueryExtend.js"></script>
+	<asp:ContentPlaceHolder ID="Javascript" runat="server"></asp:ContentPlaceHolder>
+</body>
+</html>

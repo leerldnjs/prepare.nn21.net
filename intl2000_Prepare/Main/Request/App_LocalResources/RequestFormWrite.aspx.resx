@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Address" xml:space="preserve">
+    <value>주소</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>총금액</value>
+  </data>
+  <data name="ArrivalDate" xml:space="preserve">
+    <value>도착일</value>
+  </data>
+  <data name="BoxNo" xml:space="preserve">
+    <value>박스No</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>달력</value>
+  </data>
+  <data name="certificateoforigin" xml:space="preserve">
+    <value>원산지 증명</value>
+  </data>
+  <data name="ClearanceWay" xml:space="preserve">
+    <value>통관방법</value>
+    <comment>통관방법</comment>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>회사명</value>
+  </data>
+  <data name="Consignee" xml:space="preserve">
+    <value>수하인</value>
+  </data>
+  <data name="ConsigneeAdd" xml:space="preserve">
+    <value>수하인 등록</value>
+  </data>
+  <data name="ConsigneeCompanyName" xml:space="preserve">
+    <value>수하 회사명</value>
+  </data>
+  <data name="ConsigneeSelection" xml:space="preserve">
+    <value>수하인 선택</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>수량</value>
+  </data>
+  <data name="DepartureDate" xml:space="preserve">
+    <value>출발일</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>품명</value>
+  </data>
+  <data name="ElectricSafety" xml:space="preserve">
+    <value>전기안전승인</value>
+  </data>
+  <data name="ETC" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="FoodSanitation" xml:space="preserve">
+    <value>식품위생허가증</value>
+  </data>
+  <data name="Freight" xml:space="preserve">
+    <value>화물</value>
+  </data>
+  <data name="Freightman" xml:space="preserve">
+    <value>화물 출고담당자</value>
+  </data>
+  <data name="GrossWeight" xml:space="preserve">
+    <value>중량</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>스타일 No</value>
+  </data>
+  <data name="Material" xml:space="preserve">
+    <value>재질</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>휴대전화</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="NotifyParty" xml:space="preserve">
+    <value>통지처</value>
+  </data>
+  <data name="PackingCount" xml:space="preserve">
+    <value>포장수량</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>물류비용 결제사항</value>
+  </data>
+  <data name="PaymentWho" xml:space="preserve">
+    <value>비용 청구대상</value>
+  </data>
+  <data name="PaymentWitch" xml:space="preserve">
+    <value>결제 방법</value>
+  </data>
+  <data name="PickUp" xml:space="preserve">
+    <value>픽업요청</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>지역</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>요청일시</value>
+  </data>
+  <data name="Schedule" xml:space="preserve">
+    <value>일정</value>
+  </data>
+  <data name="SelfDelivery" xml:space="preserve">
+    <value>직접 배송</value>
+  </data>
+  <data name="Shipper" xml:space="preserve">
+    <value>발송인</value>
+  </data>
+  <data name="ShipperCompanyName" xml:space="preserve">
+    <value>발송 회사명</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>계</value>
+  </data>
+  <data name="TradeDocumentRequest" xml:space="preserve">
+    <value>무역서류 요청</value>
+  </data>
+  <data name="TransportWay" xml:space="preserve">
+    <value>운송방법</value>
+  </data>
+  <data name="UnitCost" xml:space="preserve">
+    <value>단가</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>체적</value>
+  </data>
+  <data name="AreaDetailSelection" xml:space="preserve">
+    <value>세부지역선택</value>
+  </data>
+  <data name="AreaSelection" xml:space="preserve">
+    <value>지역 선택</value>
+  </data>
+  <data name="DepartureCountrySelection" xml:space="preserve">
+    <value>국가</value>
+  </data>
+  <data name="Arrival" xml:space="preserve">
+    <value>도  착</value>
+  </data>
+  <data name="Departure" xml:space="preserve">
+    <value>출  발</value>
+  </data>
+  <data name="ArrivalCountrySelection" xml:space="preserve">
+    <value>국가</value>
+  </data>
+  <data name="ArrivalLocal1" xml:space="preserve">
+    <value>지역</value>
+  </data>
+  <data name="ArrivalLocal2" xml:space="preserve">
+    <value>상세지역</value>
+  </data>
+  <data name="DepartureLocal1" xml:space="preserve">
+    <value>지역</value>
+  </data>
+  <data name="DepartureLocal2" xml:space="preserve">
+    <value>상세지역</value>
+  </data>
+  <data name="TransportWay_flight" xml:space="preserve">
+    <value>항공운송</value>
+  </data>
+  <data name="TransportWay_Mixed" xml:space="preserve">
+    <value>복합운송</value>
+  </data>
+  <data name="TransportWay_Special" xml:space="preserve">
+    <value>항공특송</value>
+  </data>
+  <data name="Clearance" xml:space="preserve">
+    <value>수출회사 지정</value>
+  </data>
+  <data name="ClearanceSelection" xml:space="preserve">
+    <value>수출회사 지정</value>
+  </data>
+  <data name="StaffName" xml:space="preserve">
+    <value>담당자명</value>
+  </data>
+  <data name="ToOurOfficeDeliveryWay" xml:space="preserve">
+    <value>출고방법</value>
+  </data>
+  <data name="ClearanceSubstitute" xml:space="preserve">
+    <value>명의대행</value>
+    <comment>대행</comment>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="RequestFormWrite" xml:space="preserve">
+    <value>물류 접수 신청</value>
+  </data>
+  <data name="MonetaryUnitChange" xml:space="preserve">
+    <value>화폐단위 지정</value>
+  </data>
+  <data name="InsertItem" xml:space="preserve">
+    <value>항목추가</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>해당사항 없음</value>
+  </data>
+  <data name="PaymentA" xml:space="preserve">
+    <value>EXW : 모든비용 수화인 결제 (A)</value>
+  </data>
+  <data name="PaymentAEx" xml:space="preserve">
+    <value>EX-Works|수출통관, 수입통관 모두 수입자의 의무입니다. |모든 비용을 수입자가 부담합니다.</value>
+  </data>
+  <data name="PaymentB" xml:space="preserve">
+    <value>DDP : 모든비용 발송인 결제 (B)</value>
+  </data>
+  <data name="PaymentBEx" xml:space="preserve">
+    <value>Delivered Duty Paid|수출통관, 수입통관 모두 수출자의 의무입니다. |모든 비용을 수출자가 부담합니다.</value>
+  </data>
+  <data name="PaymentC" xml:space="preserve">
+    <value>CNF : 도착항 까지 모든 비용 발송인 결제 (C)</value>
+  </data>
+  <data name="PaymentCEx" xml:space="preserve">
+    <value>Cost, Insurance and Freight|물품 선적시까지의 제비용, 목적항에 도착시까지의 비용을 수출자가 부담함</value>
+  </data>
+  <data name="PaymentD" xml:space="preserve">
+    <value>FOB : 출발항까지 모든 비용 발송인 결제 (D)</value>
+  </data>
+  <data name="PaymentDEx" xml:space="preserve">
+    <value>Free On Board|물품이 지정선적항에서 본선의 난간을 통과할 때까지의 비용을 수출자가 부담| 이후는 수입자 부담</value>
+  </data>
+  <data name="TradeDocument" xml:space="preserve">
+    <value>무역서류</value>
+  </data>
+  <data name="ProductCheked" xml:space="preserve">
+    <value>상검</value>
+  </data>
+  <data name="SuChec" xml:space="preserve">
+    <value>수책</value>
+  </data>
+</root>

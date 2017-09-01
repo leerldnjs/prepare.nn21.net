@@ -1,0 +1,118 @@
+jQuery POST 요청 타입(1)
+ 
+var formData = "id=kim&pass=123";  //전송할 Form 데이터를 이름=값 형식으로 지정
+var formData = {id:"kim",pass:"123"}; // 또는 전송할 Form 데이터를 배열 형식으로 지정  
+  
+$.ajax({
+    url : "AJAX_POST_URL",
+    type: "POST",
+    data : formData,
+    success: function(data, textStatus, jqXHR)
+    {
+        // data 는 서버로 부터 수신된 응답
+        // $('#result').empty();
+        // $('#result').append(data);
+    },
+    error: function (jqXHR, textStatus, errorThrown)
+    {
+  
+    }
+});
+ 
+jQuery POST 요청 타입(2)
+ 
+$.post("AJAX_POST_URL",
+    {id:"kim",pass:"123",submit:true},
+    function(data, textStatus, jqXHR)
+    {
+        //data는 서버의 응답
+    }).fail(function(jqXHR, textStatus, errorThrown) 
+    {
+        alert(textStatus);
+    });
+  
+//With jqXHR callbacks .done() and .fail()
+$.post("AJAX_POST_URL",
+    {id:"kim",pass:"123",submit:true}).done(function(data, textStatus, jqXHR) 
+        {
+  
+        }).fail(function(jqXHR, textStatus, errorThrown) 
+    {
+        alert(textStatus);
+    });
+ 
+ 
+1. 간단한 Form 요청
+ 
+간단한 form을 이용한 submit Form
+<form name="form1" id="ajaxform" action="test.jsp" method="POST">
+    Name: <input type="text" name="fname" value =""/> <br/>
+    Email : <input type="text" name="email" value=""/> <br/>
+</form>
+ 
+TYPE-1. 간단한 form submit을 처리하는 jQuery 콜백핸들러
+$("#form1").submit(function(e)
+{
+    var postData = $(this).serializeArray();
+    var formURL = $(this).attr("action");
+    $.ajax(
+    {
+        url : formURL,
+        type: "POST",
+        data : postData,
+        success:function(data, textStatus, jqXHR) 
+        {
+            //data: return data from server
+        },
+        error: function(jqXHR, textStatus, errorThrown) 
+        {
+            //if fails      
+        }
+    });
+    e.preventDefault(); //STOP default action
+    e.unbind(); //unbind. to stop multiple form submit.
+});
+  
+$("#form1").submit();
+ 
+ 
+2. Multipart form 데이터 전송 요청
+ 
+multipart/form-data 요청 Form 
+<form name="multiform" id="multiform" action="multi-form-submit.php" method="POST"         enctype="multipart/form-data">
+    Name: <input type="text" name="name"  value="Ravi"/> <br/>
+    Age :<input type="text" name="age"  value="1" /> <br/>
+    Image :<input type="file" name="photo" /><br/>
+</form>
+ 
+multipart/form-data 요청 이벤트를 위한 jQuery 콜백 핸들러
+$("#multiform").submit(function(e)
+{
+    var formObj = $(this);
+    var formURL = formObj.attr("action");
+    var formData = new FormData(this);
+    $.ajax({
+            url: formURL,
+            type: 'POST',
+            data:  formData,
+            mimeType:"multipart/form-data",
+            contentType: false,
+            cache: false,
+            processData:false,
+            success: function(data, textStatus, jqXHR)
+            {
+                // 요청 처리가 성공적으로 처리된 경우 응답으 data로 참조할 수 있다.
+            },
+            error: function(jqXHR, textStatus, errorThrown) 
+           {
+           }          
+    });
+    e.preventDefault();   //디폴트 액션을 예방한다. 
+    e.unbind();
+}); 
+$("#multiform").submit();  //form을 전송한다.
+
+
+출처: http://www.openeg.co.kr/463 [Open Expert Group]
+
+출처: http://www.openeg.co.kr/463 [Open Expert Group]

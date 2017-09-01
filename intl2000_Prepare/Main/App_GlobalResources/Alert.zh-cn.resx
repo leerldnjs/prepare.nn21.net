@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArrivalDateMustNearThanDepartureDate" xml:space="preserve">
+    <value>到达日期不能早于发货日期</value>
+    <comment>RequestFormWrite</comment>
+  </data>
+  <data name="CallError" xml:space="preserve">
+    <value>为正常储藏 
+咨询 korea@nn21.com</value>
+  </data>
+  <data name="CountryMust" xml:space="preserve">
+    <value>必须选择国籍</value>
+  </data>
+  <data name="DeleteComplete" xml:space="preserve">
+    <value>删除完毕</value>
+  </data>
+  <data name="ModifySuccess" xml:space="preserve">
+    <value>完成修改</value>
+  </data>
+  <data name="MustAddress" xml:space="preserve">
+    <value>输入地址</value>
+  </data>
+  <data name="MustArrivalArea" xml:space="preserve">
+    <value>选择到达地</value>
+    <comment>RequestFormWrite</comment>
+  </data>
+  <data name="MustArrivalDate" xml:space="preserve">
+    <value>选择到达日期</value>
+    <comment>RequestFormWrite</comment>
+  </data>
+  <data name="MustCompanyName" xml:space="preserve">
+    <value>必须填写公司名</value>
+  </data>
+  <data name="MustDeliveryWay" xml:space="preserve">
+    <value>选择货物入库方法</value>
+    <comment>RequestFormWrite</comment>
+  </data>
+  <data name="MustDepartureArea" xml:space="preserve">
+    <value>选择出发地</value>
+    <comment>RequestFormWrite</comment>
+  </data>
+  <data name="MustDepartureDate" xml:space="preserve">
+    <value>选择出发日期</value>
+    <comment>RequestFormWrite</comment>
+  </data>
+  <data name="MustDuties" xml:space="preserve">
+    <value>填写职位</value>
+    <comment>CompanyJoin1</comment>
+  </data>
+  <data name="MustEmail" xml:space="preserve">
+    <value>Please Type By E-mail form</value>
+  </data>
+  <data name="MustJuminNo" xml:space="preserve">
+    <value>填写准确的身份证号码</value>
+    <comment>CompanyJoin1</comment>
+  </data>
+  <data name="MustNotifyPartyAddress" xml:space="preserve">
+    <value>填写地址</value>
+    <comment>RequestFormWrite</comment>
+  </data>
+  <data name="MustNotifyPartyBank" xml:space="preserve">
+    <value>填写银行名称</value>
+    <comment>RequestFormWrite</comment>
+  </data>
+  <data name="MustNotifyPartyCompanyName" xml:space="preserve">
+    <value>填写公司名称</value>
+    <comment>RequestFormWrite</comment>
+  </data>
+  <data name="MustPickupRequestDate" xml:space="preserve">
+    <value>选择提货日期</value>
+    <comment>RequestFormWrite</comment>
+  </data>
+  <data name="MustPresidentName" xml:space="preserve">
+    <value>必须填写法人名</value>
+  </data>
+  <data name="MustShipper" xml:space="preserve">
+    <value>必须填写进口公司名称
+选择收货人或增加新的收货人。</value>
+    <comment>RequestFormWrite</comment>
+  </data>
+  <data name="MustShipperNameInDocument" xml:space="preserve">
+    <value>通关文件上指定出口公司</value>
+    <comment>RequestFormWrite</comment>
+  </data>
+  <data name="MustTransportWay" xml:space="preserve">
+    <value>选择运送方法</value>
+    <comment>RequestFormWrite</comment>
+  </data>
+  <data name="MustWriterName" xml:space="preserve">
+    <value>必须填写注册人名</value>
+    <comment>CompanyJoin1</comment>
+  </data>
+  <data name="NoAccount" xml:space="preserve">
+    <value>用户不存在</value>
+  </data>
+  <data name="NotifyPartyMSG" xml:space="preserve">
+    <value>通知处是船公司通知客户货物到达的地方
+通常跟进口者一样，或者特别需要指定企业进行物流/通关业务的情况及
+像信用证结算，另有货款保证人的情况需要记载。
+像信用证结算的情况是签发信用证的银行变成是收货人，而实际进口者资料会进入通知处
+要指定通知处请选择 “确认”
+收货人是一样的请选择 “取消”</value>
+  </data>
+  <data name="NotRightJuminNo" xml:space="preserve">
+    <value>不是正确的身份证号码</value>
+    <comment>CompanyJoin1</comment>
+  </data>
+  <data name="PWDDifferent" xml:space="preserve">
+    <value>两个密码不一致</value>
+  </data>
+  <data name="PWDMust" xml:space="preserve">
+    <value>密码是必须事项</value>
+  </data>
+  <data name="Rejection" xml:space="preserve">
+    <value>You can't access this page</value>
+  </data>
+  <data name="WrongEmail" xml:space="preserve">
+    <value>必须填写邮箱地址</value>
+    <comment>CompanyJoin1</comment>
+  </data>
+  <data name="WrongMobile" xml:space="preserve">
+    <value>请填写准确的手机号码</value>
+    <comment>CompanyJoin1</comment>
+  </data>
+  <data name="WrongPWD" xml:space="preserve">
+    <value>密码错误</value>
+  </data>
+  <data name="WrongTEL" xml:space="preserve">
+    <value>请填写准确的电话号码</value>
+    <comment>CompanyJoin1</comment>
+  </data>
+  <data name="CompanyCodeBeingUsed" xml:space="preserve">
+    <value>CompanyCode being used</value>
+    <comment>RequestFormView</comment>
+  </data>
+  <data name="SetCompanyCodeAuto1" xml:space="preserve">
+    <value>Auto Number</value>
+    <comment>RequestFormView</comment>
+  </data>
+  <data name="SetCompanyCodeAuto2" xml:space="preserve">
+    <value>Will you set Companycode by this number?</value>
+    <comment>RequestFormView</comment>
+  </data>
+  <data name="CompanyNameE" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MustCompanyNamee" xml:space="preserve">
+    <value>Please Type English Company name</value>
+  </data>
+</root>

@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Address" xml:space="preserve">
+    <value>주소</value>
+    <comment>7</comment>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>지역</value>
+    <comment>7</comment>
+  </data>
+  <data name="Buseo" xml:space="preserve">
+    <value>부서</value>
+    <comment>1</comment>
+  </data>
+  <data name="BusinessCenter" xml:space="preserve">
+    <value>비즈니스 센터</value>
+    <comment>7</comment>
+  </data>
+  <data name="BusinessType1" xml:space="preserve">
+    <value>법인사업자</value>
+    <comment>5</comment>
+  </data>
+  <data name="BusinessType2" xml:space="preserve">
+    <value>개인사업자</value>
+    <comment>5</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>취소</value>
+    <comment>7</comment>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>비밀번호 변경</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>회사</value>
+  </data>
+  <data name="CompanyCode" xml:space="preserve">
+    <value>고객번호</value>
+    <comment>3</comment>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>회사명</value>
+    <comment>7</comment>
+  </data>
+  <data name="CompanyTEL" xml:space="preserve">
+    <value>대표전화</value>
+    <comment>7</comment>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>국적</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>대상업체</value>
+    <comment>7</comment>
+  </data>
+  <data name="Damdangja" xml:space="preserve">
+    <value>담당자 등록</value>
+    <comment>5</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>삭제</value>
+    <comment>7</comment>
+  </data>
+  <data name="Distribution" xml:space="preserve">
+    <value>유통</value>
+    <comment>5</comment>
+  </data>
+  <data name="Duties" xml:space="preserve">
+    <value>직   책</value>
+    <comment>5</comment>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>이메일</value>
+    <comment>7</comment>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>영어</value>
+    <comment>7</comment>
+  </data>
+  <data name="Homepage" xml:space="preserve">
+    <value>홈페이지</value>
+    <comment>7</comment>
+  </data>
+  <data name="HowLong" xml:space="preserve">
+    <value>기간</value>
+    <comment>7</comment>
+  </data>
+  <data name="InfoAccount" xml:space="preserve">
+    <value>계정 정보</value>
+    <comment>2</comment>
+  </data>
+  <data name="InfoCompany" xml:space="preserve">
+    <value>회사 정보</value>
+    <comment>2</comment>
+  </data>
+  <data name="InfoCustomer" xml:space="preserve">
+    <value>거래처 정보</value>
+    <comment>2</comment>
+  </data>
+  <data name="Jikmu" xml:space="preserve">
+    <value>직무</value>
+    <comment>1</comment>
+  </data>
+  <data name="Jikwi" xml:space="preserve">
+    <value>직위</value>
+    <comment>1</comment>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>로그아웃</value>
+    <comment>7</comment>
+  </data>
+  <data name="Memo" xml:space="preserve">
+    <value>메모</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>휴대전화 번호</value>
+    <comment>7</comment>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>수  정</value>
+  </data>
+  <data name="MyInformation" xml:space="preserve">
+    <value>정보관리</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>성명</value>
+    <comment>7</comment>
+  </data>
+  <data name="NoCustomer" xml:space="preserve">
+    <value>등록된 거래처가 없습니다. </value>
+  </data>
+  <data name="PresidentName" xml:space="preserve">
+    <value>대표자 성명</value>
+    <comment>7</comment>
+  </data>
+  <data name="Production" xml:space="preserve">
+    <value>생산</value>
+    <comment>5</comment>
+  </data>
+  <data name="PWD" xml:space="preserve">
+    <value>패스워드</value>
+  </data>
+  <data name="PWD2" xml:space="preserve">
+    <value>패스워드 확인</value>
+  </data>
+  <data name="PWDOld" xml:space="preserve">
+    <value>기존 패스워드</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>작성일</value>
+    <comment>7</comment>
+  </data>
+  <data name="RequestFormView" xml:space="preserve">
+    <value>물류관리</value>
+  </data>
+  <data name="RequestFormWrite" xml:space="preserve">
+    <value>물류접수</value>
+    <comment>7</comment>
+  </data>
+  <data name="Saler" xml:space="preserve">
+    <value>판매</value>
+    <comment>5</comment>
+  </data>
+  <data name="SaupjaNo" xml:space="preserve">
+    <value>사업자 등록번호</value>
+    <comment>5</comment>
+  </data>
+  <data name="Selection" xml:space="preserve">
+    <value>선택</value>
+    <comment>7</comment>
+  </data>
+  <data name="SelectionArea" xml:space="preserve">
+    <value>지역선택</value>
+    <comment>7</comment>
+  </data>
+  <data name="SelectionCountry" xml:space="preserve">
+    <value>국적 선택</value>
+    <comment>7</comment>
+  </data>
+  <data name="SelectionDetailArea" xml:space="preserve">
+    <value>세부지역선택 </value>
+    <comment>7</comment>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>담당자</value>
+  </data>
+  <data name="Staff_Accountancy" xml:space="preserve">
+    <value>재무 담당</value>
+    <comment>1</comment>
+  </data>
+  <data name="Staff_FreightMan" xml:space="preserve">
+    <value>물류 담당</value>
+    <comment>1</comment>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>진행단계</value>
+    <comment>7</comment>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>확    인</value>
+    <comment>7</comment>
+  </data>
+  <data name="TEL" xml:space="preserve">
+    <value>전화번호</value>
+    <comment>7</comment>
+  </data>
+  <data name="TitleCustomerList" xml:space="preserve">
+    <value>거래처 리스트</value>
+    <comment>4</comment>
+  </data>
+  <data name="TradeHistory" xml:space="preserve">
+    <value>거래내역</value>
+  </data>
+  <data name="TransportWay" xml:space="preserve">
+    <value>운송방법</value>
+    <comment>7</comment>
+  </data>
+  <data name="Upjong" xml:space="preserve">
+    <value>업종</value>
+    <comment>5</comment>
+  </data>
+  <data name="Upmu" xml:space="preserve">
+    <value>업무 분류</value>
+    <comment>5</comment>
+  </data>
+  <data name="Uptae" xml:space="preserve">
+    <value>업태</value>
+    <comment>5</comment>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>가입해주셔서 감사합니다. </value>
+    <comment>7</comment>
+  </data>
+  <data name="JuminNoKOR" xml:space="preserve">
+    <value>주민등록번호</value>
+    <comment>CompanyJoinStep1</comment>
+  </data>
+  <data name="WriterName" xml:space="preserve">
+    <value>등록인 성명</value>
+    <comment>CompanyJoinStep1</comment>
+  </data>
+  <data name="SelectionCountry2" xml:space="preserve">
+    <value>국가 선택</value>
+    <comment>7</comment>
+  </data>
+  <data name="CompanyAddress" xml:space="preserve">
+    <value>사업장 주소</value>
+    <comment>7</comment>
+  </data>
+  <data name="Native" xml:space="preserve">
+    <value>자국어</value>
+  </data>
+  <data name="JuminNoCHN" xml:space="preserve">
+    <value>신분증번호</value>
+    <comment>CompanyJoinStep1</comment>
+  </data>
+  <data name="SaupjaGubun" xml:space="preserve">
+    <value>사업자 구분</value>
+  </data>
+  <data name="FindIDPWD" xml:space="preserve">
+    <value>ID / PW 찾기</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="LoginLine1" xml:space="preserve">
+    <value>안녕하세요 (주) 아이엘은 </value>
+  </data>
+  <data name="LoginLine2" xml:space="preserve">
+    <value>고객분들이 언제든지 쉽고 편하게 이용하실수 있는 접수공간을 마련했습니다.</value>
+  </data>
+  <data name="LoginLine3" xml:space="preserve">
+    <value>앞으로도 항상 고객님의 편에서 일하는 아이엘이 되겠습니다.</value>
+  </data>
+  <data name="MemberJoin" xml:space="preserve">
+    <value>회원등록</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="rjfoaudtpwkrtjd" xml:space="preserve">
+    <value>거래명세 작성</value>
+    <comment>거래명세 작성</comment>
+  </data>
+  <data name="rmador" xml:space="preserve">
+    <value>금액</value>
+    <comment>금액</comment>
+  </data>
+  <data name="rnrwpanffbwjqtn" xml:space="preserve">
+    <value>국제물류접수</value>
+    <comment>국제물류접수</comment>
+  </data>
+  <data name="vhwkdrnqns" xml:space="preserve">
+    <value>포장구분</value>
+    <comment>포장구분</comment>
+  </data>
+  <data name="wldnrl" xml:space="preserve">
+    <value>지우기</value>
+    <comment>지우기</comment>
+  </data>
+  <data name="CompanyNameE" xml:space="preserve">
+    <value>영문 회사명</value>
+    <comment>CompanyNameE</comment>
+  </data>
+</root>

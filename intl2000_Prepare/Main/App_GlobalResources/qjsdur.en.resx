@@ -1,0 +1,1286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cnfqkfwl" xml:space="preserve">
+    <value>Departure Area</value>
+    <comment>출발지</comment>
+  </data>
+  <data name="cnfrhgusghkd" xml:space="preserve">
+    <value>Sended items' List</value>
+    <comment>출고현황</comment>
+  </data>
+  <data name="cnrk" xml:space="preserve">
+    <value>Add</value>
+    <comment>추가</comment>
+  </data>
+  <data name="djqanqhrh" xml:space="preserve">
+    <value>Report</value>
+    <comment>업무보고</comment>
+  </data>
+  <data name="djqanwltl" xml:space="preserve">
+    <value>Order</value>
+    <comment>업무지시</comment>
+  </data>
+  <data name="djqcpdladmlemdfhr" xml:space="preserve">
+    <value>Company random-Add</value>
+    <comment>업체 임의등록</comment>
+  </data>
+  <data name="dnsthddPdir" xml:space="preserve">
+    <value>Booking</value>
+    <comment>운송예약</comment>
+  </data>
+  <data name="dnsthdqkdqjq" xml:space="preserve">
+    <value>shipping procedure</value>
+    <comment>운송방법</comment>
+  </data>
+  <data name="ehckr" xml:space="preserve">
+    <value>arrival</value>
+    <comment>도착</comment>
+  </data>
+  <data name="ehckrdlf" xml:space="preserve">
+    <value>Arrival Date</value>
+    <comment>도착일</comment>
+  </data>
+  <data name="ehckrdPwjd" xml:space="preserve">
+    <value>arriving</value>
+    <comment>도착예정</comment>
+  </data>
+  <data name="ghksdbf" xml:space="preserve">
+    <value>exchange rate</value>
+    <comment>환율</comment>
+  </data>
+  <data name="ghksdbfwjdqh" xml:space="preserve">
+    <value>Exchange Rate info.</value>
+    <comment>환율정보</comment>
+  </data>
+  <data name="qkfthdwnsql" xml:space="preserve">
+    <value>prepare shipment</value>
+    <comment>발송준비</comment>
+  </data>
+  <data name="qksemtlghkrdlsehlswjdqhakssjgdjwntpdy" xml:space="preserve">
+    <value>please type correct information</value>
+    <comment>반드시 확인된 정확한 정보만 넣어주세요</comment>
+  </data>
+  <data name="rhrorqjsgh" xml:space="preserve">
+    <value>Company code</value>
+    <comment>고객번호</comment>
+  </data>
+  <data name="rhrorwjdqhemdfhr" xml:space="preserve">
+    <value>register company info. </value>
+    <comment>고객정보 등록</comment>
+  </data>
+  <data name="rjfocjwjdqh" xml:space="preserve">
+    <value>Customers' Info.</value>
+    <comment>거래처정보</comment>
+  </data>
+  <data name="rlrks" xml:space="preserve">
+    <value>period</value>
+    <comment>기간</comment>
+  </data>
+  <data name="rlwnseksdnl" xml:space="preserve">
+    <value>standard unit</value>
+    <comment>기준단위</comment>
+  </data>
+  <data name="rlwnsghksdbf" xml:space="preserve">
+    <value>standard exchange rate</value>
+    <comment>기준환율</comment>
+  </data>
+  <data name="tkdgh" xml:space="preserve">
+    <value>Company Name</value>
+    <comment>상호</comment>
+  </data>
+  <data name="wjqtndPdir" xml:space="preserve">
+    <value>request register</value>
+    <comment>접수예약</comment>
+  </data>
+  <data name="wjqtngusghkd" xml:space="preserve">
+    <value>Stocked List</value>
+    <comment>접수현황</comment>
+  </data>
+  <data name="wjscp" xml:space="preserve">
+    <value>All</value>
+    <comment>전체</comment>
+  </data>
+  <data name="tntwkaksdlqfurrksmdgkqslek" xml:space="preserve">
+    <value>Please type only numbers</value>
+    <comment>숫자만 입력가능합니다</comment>
+  </data>
+  <data name="rhrorqjsghfmfwlwjdgowntpdy" xml:space="preserve">
+    <value>Please select company code</value>
+    <comment>고객번호를 지정해주세요</comment>
+  </data>
+  <data name="dlaltkdydwnddlsrhrorqjsghdlqslek" xml:space="preserve">
+    <value>This code is aleady being used.</value>
+    <comment>이미 사용중인 고객번호입니다</comment>
+  </data>
+  <data name="dhksfy" xml:space="preserve">
+    <value>complete</value>
+    <comment>완료</comment>
+  </data>
+  <data name="apdlfgudtlrdlakwwldksgtmqslek" xml:space="preserve">
+    <value>please type correct Email</value>
+    <comment>메일형식이 맞지 않습니다</comment>
+  </data>
+  <data name="rhksflwkdkdlelrkdkdlqslek" xml:space="preserve">
+    <value>it's not our staff ID</value>
+    <comment>관리자 아이디가 아닙니다</comment>
+  </data>
+  <data name="djqcprnqns" xml:space="preserve">
+    <value>business type</value>
+    <comment>업체구분</comment>
+  </data>
+  <data name="qjqdls" xml:space="preserve">
+    <value>coperation</value>
+    <comment>법인</comment>
+  </data>
+  <data name="rodlstkdjqwk" xml:space="preserve">
+    <value>private operators</value>
+    <comment>개인사업자</comment>
+  </data>
+  <data name="rlxk" xml:space="preserve">
+    <value>ETC</value>
+    <comment>기타</comment>
+  </data>
+  <data name="rnrwpdjqanemdfhr" xml:space="preserve">
+    <value>register international business</value>
+    <comment>국제업무등록</comment>
+  </data>
+  <data name="ekaekdwkaud" xml:space="preserve">
+    <value>Staff</value>
+    <comment>담당자</comment>
+  </data>
+  <data name="ekaekdwkgbeowjsghk" xml:space="preserve">
+    <value>Staff's mobile</value>
+    <comment>담당자휴대전화</comment>
+  </data>
+  <data name="gkdahraud" xml:space="preserve">
+    <value>Title</value>
+    <comment>항목명</comment>
+  </data>
+  <data name="qkfghkdlsrufwprmador" xml:space="preserve">
+    <value>Shipper's payment</value>
+    <comment>발화인 결제금액</comment>
+  </data>
+  <data name="tngkdlsrufwprmador" xml:space="preserve">
+    <value>consignee's cost</value>
+    <comment>수하인 결제금액</comment>
+  </data>
+  <data name="gkdahrcnrk" xml:space="preserve">
+    <value>Add</value>
+    <comment>항목추가</comment>
+  </data>
+  <data name="rhkwndfid" xml:space="preserve">
+    <value>over weight</value>
+    <comment>과중량</comment>
+  </data>
+  <data name="rhkcpwjr" xml:space="preserve">
+    <value>over volume</value>
+    <comment>과체적</comment>
+  </data>
+  <data name="cnfqkfwlqldyd" xml:space="preserve">
+    <value>Shipper cost</value>
+    <comment>출발지 비용</comment>
+  </data>
+  <data name="ehckrwlqldyd" xml:space="preserve">
+    <value>consignee's cost</value>
+    <comment>도착지 비용</comment>
+  </data>
+  <data name="qkfghkdlsdltkdydgkfghksdbfwjdqhrkdjqttmqslek" xml:space="preserve">
+    <value>No exchange rate for Shipper cost</value>
+    <comment>발화인이 사용할 환율정보가 없습니다</comment>
+  </data>
+  <data name="tngkdlsdltkdydgkfghksdbfwjdqhrkdjqttmqslek" xml:space="preserve">
+    <value>there are no exchange rate for consignee</value>
+    <comment>수하인이 사용할 환율정보가 없습니다</comment>
+  </data>
+  <data name="eksrkvywlwjd" xml:space="preserve">
+    <value>select table for standard p</value>
+    <comment>단가표 지정</comment>
+  </data>
+  <data name="eksrkrlwns" xml:space="preserve">
+    <value>standard of unit cost</value>
+    <comment>단가기준</comment>
+  </data>
+  <data name="ghkrdls" xml:space="preserve">
+    <value>submit</value>
+    <comment>확인</comment>
+  </data>
+  <data name="rhksqnrktpskqqnwk" xml:space="preserve">
+    <value>taxpayer</value>
+    <comment>관부가세 납부자</comment>
+  </data>
+  <data name="tngkdls" xml:space="preserve">
+    <value>consignee</value>
+    <comment>수하인</comment>
+  </data>
+  <data name="qkfghkdls" xml:space="preserve">
+    <value>Shipper</value>
+    <comment>발화인</comment>
+  </data>
+  <data name="rufwpqkdtlr" xml:space="preserve">
+    <value>payment plan</value>
+    <comment>결제방식</comment>
+  </data>
+  <data name="ehckrwl" xml:space="preserve">
+    <value>arrival area</value>
+    <comment>도착지</comment>
+  </data>
+  <data name="gkqrP" xml:space="preserve">
+    <value>SUM</value>
+    <comment>합계</comment>
+  </data>
+  <data name="rPtks" xml:space="preserve">
+    <value>calculate</value>
+    <comment>계산</comment>
+  </data>
+  <data name="chdqkrtm" xml:space="preserve">
+    <value>Total Box count</value>
+    <comment>총 박스</comment>
+  </data>
+  <data name="chdcpwjr" xml:space="preserve">
+    <value>Total Volume</value>
+    <comment>총 체적</comment>
+  </data>
+  <data name="chdwndfid" xml:space="preserve">
+    <value>Total Weight</value>
+    <comment>총 중량</comment>
+  </data>
+  <data name="dlfma" xml:space="preserve">
+    <value>Name</value>
+    <comment>이름</comment>
+  </data>
+  <data name="ekaekdwkwjqtnwlxmrdltkgkd" xml:space="preserve">
+    <value>comment</value>
+    <comment>담당자  접수시 특이사항</comment>
+  </data>
+  <data name="cnfqkfwltkekaekd" xml:space="preserve">
+    <value>Staff For Shipper</value>
+    <comment>출발지사 담당</comment>
+  </data>
+  <data name="ehckrwltkekaekd" xml:space="preserve">
+    <value>Shipper for Consignee</value>
+    <comment>도착지사 담당</comment>
+  </data>
+  <data name="gkdrhdxmrthd" xml:space="preserve">
+    <value>Air courier</value>
+    <comment>항공특송</comment>
+  </data>
+  <data name="gkdrhddnsthd" xml:space="preserve">
+    <value>Air transport</value>
+    <comment>항공운송</comment>
+  </data>
+  <data name="qhrgkqdnsthd" xml:space="preserve">
+    <value>combined transportation</value>
+    <comment>복합운송</comment>
+  </data>
+  <data name="gkdrhd" xml:space="preserve">
+    <value>Air</value>
+    <comment>항공</comment>
+  </data>
+  <data name="ckfid" xml:space="preserve">
+    <value>Truck</value>
+    <comment>차량</comment>
+  </data>
+  <data name="sofbr" xml:space="preserve">
+    <value>inland</value>
+    <comment>내륙</comment>
+  </data>
+  <data name="alwlwjd" xml:space="preserve">
+    <value>not seleted</value>
+    <comment>미지정</comment>
+  </data>
+  <data name="tlsrbrhroremdfhr" xml:space="preserve">
+    <value>add new company</value>
+    <comment>신규고객 등록</comment>
+  </data>
+  <data name="tjsxorgkrl" xml:space="preserve">
+    <value>selection</value>
+    <comment>선택하기</comment>
+  </data>
+  <data name="vlrdjqdycjd" xml:space="preserve">
+    <value>request pick up</value>
+    <comment>픽업요청</comment>
+  </data>
+  <data name="tnghkdlstjsxor" xml:space="preserve">
+    <value>select consignee</value>
+    <comment>수화인 선택</comment>
+  </data>
+  <data name="ckdrhfmfwlwjdgowntpdy" xml:space="preserve">
+    <value>Please select warehouse</value>
+    <comment>창고를 지정해주세요</comment>
+  </data>
+  <data name="ekaekdwkdkdlelfmfwjrdmtlsgnghkrdlsqjxmsdmfsnffjwntpdy" xml:space="preserve">
+    <value>please type staff ID and click submit button</value>
+    <comment>담당자 아이디를 적으신 후 확인버튼을 눌러주세요</comment>
+  </data>
+  <data name="tnwjddhksfy" xml:space="preserve">
+    <value>modify complete</value>
+    <comment>수정완료</comment>
+  </data>
+  <data name="rlxkqothdwlcnrk" xml:space="preserve">
+    <value>add arrival areas</value>
+    <comment>기타배송지 추가</comment>
+  </data>
+  <data name="cnfqkfwltkekaekdwkwlwjddhksfy" xml:space="preserve">
+    <value>Staff For Shipper selected</value>
+    <comment>출발지사 담당자 지정완료</comment>
+  </data>
+  <data name="ehckrwltkekaekdwkwlwjddhksfy" xml:space="preserve">
+    <value>Shipper for Consignee selected</value>
+    <comment>도착지사 담당자 지정완료</comment>
+  </data>
+  <data name="cnfqkfwltnwjd" xml:space="preserve">
+    <value>Departure area modify</value>
+    <comment>출발지 수정</comment>
+  </data>
+  <data name="ehckrwltnwjd" xml:space="preserve">
+    <value>modify the arrival area</value>
+    <comment>도착지 수정</comment>
+  </data>
+  <data name="dnsthdqkdqjqtnwjd" xml:space="preserve">
+    <value>modify shipping procedure.</value>
+    <comment>운송방법 수정</comment>
+  </data>
+  <data name="rottn" xml:space="preserve">
+    <value>amount</value>
+    <comment>갯수</comment>
+  </data>
+  <data name="tmzpwnfghkrwjd" xml:space="preserve">
+    <value>confirm schedules</value>
+    <comment>스케쥴 확정</comment>
+  </data>
+  <data name="ehckrwltk" xml:space="preserve">
+    <value>Branch for Consignee</value>
+    <comment>도착지사</comment>
+  </data>
+  <data name="gkdrhdtk" xml:space="preserve">
+    <value>Airline Company</value>
+    <comment>항공사</comment>
+  </data>
+  <data name="cnfqkfrhdgkd" xml:space="preserve">
+    <value>Departure Airport</value>
+    <comment>출발공항</comment>
+  </data>
+  <data name="cnfqkfdPwjddlf" xml:space="preserve">
+    <value>Departure date</value>
+    <comment>출발예정일</comment>
+  </data>
+  <data name="ehckrwrhdgkd" xml:space="preserve">
+    <value>Arrival Airport</value>
+    <comment>도착공항</comment>
+  </data>
+  <data name="ehckrdPwjddlf" xml:space="preserve">
+    <value>Arrival date</value>
+    <comment>도착예정일</comment>
+  </data>
+  <data name="gkdrhdaud" xml:space="preserve">
+    <value>Airline Name</value>
+    <comment>항공명</comment>
+  </data>
+  <data name="cnfqkfgkdrhdtkdusfkrcj" xml:space="preserve">
+    <value>Departure port's contact number</value>
+    <comment>출발 항공사 연락처</comment>
+  </data>
+  <data name="ehckrgkdrhdtkdusfkrcj" xml:space="preserve">
+    <value>arrival port contact number</value>
+    <comment>도착 항공사 연락처</comment>
+  </data>
+  <data name="ckfidghltkaud" xml:space="preserve">
+    <value>company name</value>
+    <comment>차량 회사명</comment>
+  </data>
+  <data name="ghkanfthdwkdqjsgh" xml:space="preserve">
+    <value>BL / No</value>
+    <comment>화물송장 번호</comment>
+  </data>
+  <data name="ckfidqjsgh" xml:space="preserve">
+    <value>truck no.</value>
+    <comment>차량번호</comment>
+  </data>
+  <data name="ckfidrbrur" xml:space="preserve">
+    <value>Truck Size</value>
+    <comment>차량규격</comment>
+  </data>
+  <data name="ckfiddusfkrcj" xml:space="preserve">
+    <value>Truck's contact number</value>
+    <comment>차량 연락처</comment>
+  </data>
+  <data name="rltktjdaud" xml:space="preserve">
+    <value>drivers' name</value>
+    <comment>기사성명</comment>
+  </data>
+  <data name="tjsqkrghltkaud" xml:space="preserve">
+    <value>Ship company name</value>
+    <comment>선박회사명</comment>
+  </data>
+  <data name="tjswjrgkd" xml:space="preserve">
+    <value>departure port</value>
+    <comment>선적항</comment>
+  </data>
+  <data name="ehckrgkd" xml:space="preserve">
+    <value>arrival port</value>
+    <comment>도착항</comment>
+  </data>
+  <data name="tjsqkraud" xml:space="preserve">
+    <value>Vessel Name Certificate</value>
+    <comment>선박명</comment>
+  </data>
+  <data name="tncnfwktkdgh" xml:space="preserve">
+    <value>shipper name</value>
+    <comment>수출자 상호</comment>
+  </data>
+  <data name="zjsxpdlsjrbrur" xml:space="preserve">
+    <value>Container Size</value>
+    <comment>컨테이너 규격</comment>
+  </data>
+  <data name="gkdck" xml:space="preserve">
+    <value>turn</value>
+    <comment>항차</comment>
+  </data>
+  <data name="zjsxpdlsjqjsgh" xml:space="preserve">
+    <value>Container No.</value>
+    <comment>컨테이너 번호</comment>
+  </data>
+  <data name="Tlfqjsgh" xml:space="preserve">
+    <value>seal no.</value>
+    <comment>씰번호</comment>
+  </data>
+  <data name="rkxdmswldurdmfhsmsahtqhsoqslek" xml:space="preserve">
+    <value>can't send same area</value>
+    <comment>같은지역으로는 못보냅니다</comment>
+  </data>
+  <data name="cnfqkfdPwjddlfdmsvlftntkgkddlqslek" xml:space="preserve">
+    <value>please type departure date</value>
+    <comment>출발예정일은 필수사항입니다</comment>
+  </data>
+  <data name="ehckrdPwjddlfdmsvlftntkgkddlqslek" xml:space="preserve">
+    <value>please type arrival date</value>
+    <comment>도착예정일은 필수사항입니다</comment>
+  </data>
+  <data name="tjsqkr" xml:space="preserve">
+    <value>Shipping</value>
+    <comment>선박</comment>
+  </data>
+  <data name="zhapsxm" xml:space="preserve">
+    <value>comment</value>
+    <comment>코멘트</comment>
+  </data>
+  <data name="rhksfusvkdlfcjaqn" xml:space="preserve">
+    <value>additional file</value>
+    <comment>관련파일 첨부</comment>
+  </data>
+  <data name="dnsthdrmador" xml:space="preserve">
+    <value>shipping cost</value>
+    <comment>운송금액</comment>
+  </data>
+  <data name="tlsrbemdfhr" xml:space="preserve">
+    <value>add new</value>
+    <comment>신규등록</comment>
+  </data>
+  <data name="dlqrhdPwjddlfdmfsjgdjwntpdy" xml:space="preserve">
+    <value>please type stored date</value>
+    <comment>입고예정일을 넣어주세요</comment>
+  </data>
+  <data name="vlrdjqdycjdqkrtmtn" xml:space="preserve">
+    <value>the number of boxes for requested pick up</value>
+    <comment>픽업요청 박스수</comment>
+  </data>
+  <data name="vlrdjqwl" xml:space="preserve">
+    <value>pick up area</value>
+    <comment>픽업지</comment>
+  </data>
+  <data name="wjqtnqhfbtkdb" xml:space="preserve">
+    <value>hold reason</value>
+    <comment>접수보류 사유</comment>
+  </data>
+  <data name="tjdrhdwjrdmfhwlwjdehldjTtmqslek" xml:space="preserve">
+    <value>successfully selected</value>
+    <comment>성공적으로 지정되었습니다</comment>
+  </data>
+  <data name="qjsrudehlssodurdldjqttmqslek" xml:space="preserve">
+    <value>check again please there is no changed history</value>
+    <comment>변경된 내역이 없습니다</comment>
+  </data>
+  <data name="rjfocjdusrufgkrl" xml:space="preserve">
+    <value>connect to customers</value>
+    <comment>거래처 연결하기</comment>
+  </data>
+  <data name="tkdekasodur" xml:space="preserve">
+    <value>Consultations</value>
+    <comment>상담내역</comment>
+  </data>
+  <data name="enlfh" xml:space="preserve">
+    <value>Back</value>
+    <comment>뒤로</comment>
+  </data>
+  <data name="rlqhswjdqh" xml:space="preserve">
+    <value>basic information</value>
+    <comment>기본정보</comment>
+  </data>
+  <data name="rjfocjwjdqhqhrl" xml:space="preserve">
+    <value>see customers' information</value>
+    <comment>거래처 정보보기</comment>
+  </data>
+  <data name="rjfosodurqhrl" xml:space="preserve">
+    <value>see transport history</value>
+    <comment>거래내역 보기</comment>
+  </data>
+  <data name="rhrorqjsghwlwjd" xml:space="preserve">
+    <value>select company code </value>
+    <comment>고객번호 지정</comment>
+  </data>
+  <data name="wldurtnwjd" xml:space="preserve">
+    <value>modify area</value>
+    <comment>지역수정</comment>
+  </data>
+  <data name="rjfocjwjdqhfmftkrwpgktlrpTtmqslRk" xml:space="preserve">
+    <value>Customers' Info.</value>
+    <comment>거래처 정보</comment>
+  </data>
+  <data name="tkrwpdhksfy" xml:space="preserve">
+    <value>delete completed</value>
+    <comment>삭제완료</comment>
+  </data>
+  <data name="dnsthdtlzhapsxm" xml:space="preserve">
+    <value>comment</value>
+    <comment>운송시코멘트</comment>
+  </data>
+  <data name="dufrhekerl" xml:space="preserve">
+    <value>open / close</value>
+    <comment>열고닫기</comment>
+  </data>
+  <data name="dlqfur" xml:space="preserve">
+    <value>enter</value>
+    <comment>입력</comment>
+  </data>
+  <data name="tnwjd" xml:space="preserve">
+    <value>Modify</value>
+    <comment> 수정</comment>
+  </data>
+  <data name="cnlth" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>취소</comment>
+  </data>
+  <data name="dPdirqkfthd" xml:space="preserve">
+    <value>reservation</value>
+    <comment>예약발송</comment>
+  </data>
+  <data name="qkfthddhksfy" xml:space="preserve">
+    <value>Send complete</value>
+    <comment>발송완료</comment>
+  </data>
+  <data name="dnsthdqkdqjqdmftjsxorgowntpdy" xml:space="preserve">
+    <value>please select shipping procedure.</value>
+    <comment>운송방법을 선택해 주세요</comment>
+  </data>
+  <data name="tjsxorehlsghkanfdldjqttmqslek" xml:space="preserve">
+    <value>there are no selected cargos</value>
+    <comment>선택된 화물이 없습니다</comment>
+  </data>
+  <data name="wjdtkdcjflehldjTtmqslek" xml:space="preserve">
+    <value>complete</value>
+    <comment>정상처리되었습니다</comment>
+  </data>
+  <data name="wjqtn" xml:space="preserve">
+    <value>reception</value>
+    <comment>접수</comment>
+  </data>
+  <data name="qhfb" xml:space="preserve">
+    <value>hold</value>
+    <comment>보류</comment>
+  </data>
+  <data name="vlrdjqdPdir" xml:space="preserve">
+    <value>reserve pick up</value>
+    <comment>픽업예약</comment>
+  </data>
+  <data name="dlqrh" xml:space="preserve">
+    <value>stock</value>
+    <comment>입고</comment>
+  </data>
+  <data name="rPdifdhksfy" xml:space="preserve">
+    <value>quantified</value>
+    <comment>계량완료</comment>
+  </data>
+  <data name="dlfwjdghkrwjd" xml:space="preserve">
+    <value>confirm schedule</value>
+    <comment>일정확정</comment>
+  </data>
+  <data name="emdfhrtjdrhd" xml:space="preserve">
+    <value>register succeeded!</value>
+    <comment>등록성공</comment>
+  </data>
+  <data name="sodyddldjqttmqslek" xml:space="preserve">
+    <value>empty</value>
+    <comment>내용이 없습니다</comment>
+  </data>
+  <data name="rhrorzhemfmfsjgdjwntpdy" xml:space="preserve">
+    <value>please type company code</value>
+    <comment>고객코드를 넣어주세요</comment>
+  </data>
+  <data name="wlwjddhksfy" xml:space="preserve">
+    <value>assigned completely</value>
+    <comment>지정완료되었습니다</comment>
+  </data>
+  <data name="ghkanftnwjd" xml:space="preserve">
+    <value>modify freight</value>
+    <comment>화물 수정</comment>
+  </data>
+  <data name="tnwjdsodurqhrl" xml:space="preserve">
+    <value>view modified history</value>
+    <comment>수정내역 보기</comment>
+  </data>
+  <data name="qkfthdtlfvo" xml:space="preserve">
+    <value>Send fail</value>
+    <comment>발송실패</comment>
+  </data>
+  <data name="tnwjdgkftndjqttmqslek" xml:space="preserve">
+    <value>it can't be changed</value>
+    <comment>수정할수 없습니다</comment>
+  </data>
+  <data name="dlalemdfhrehlsrhrorqjsghdlqslek" xml:space="preserve">
+    <value>This code is aleady been registered.</value>
+    <comment>이미 등록된 고객번호입니다</comment>
+  </data>
+  <data name="qhfbgowp" xml:space="preserve">
+    <value>hold off</value>
+    <comment>보류해제</comment>
+  </data>
+  <data name="wjrdydghksdbf" xml:space="preserve">
+    <value>applied Exchange rate</value>
+    <comment>적용환율</comment>
+  </data>
+  <data name="dlqrmadPwhk" xml:space="preserve">
+    <value>bank account</value>
+    <comment>입금계좌</comment>
+  </data>
+  <data name="wjqtnqhfb" xml:space="preserve">
+    <value>Hold</value>
+    <comment>접수보류</comment>
+  </data>
+  <data name="ghkanfwjqtndhksfy" xml:space="preserve">
+    <value>request registerd</value>
+    <comment>화물 접수 완료</comment>
+  </data>
+  <data name="dnsthdwlsgodwnd" xml:space="preserve">
+    <value>progress</value>
+    <comment>운송진행중</comment>
+  </data>
+  <data name="emdfhrehlsrjfocjsodurdldjqttmqslek" xml:space="preserve">
+    <value>empty</value>
+    <comment>등록된 거리처내역이 없습니다</comment>
+  </data>
+  <data name="fhrmdlsgowntpdy" xml:space="preserve">
+    <value>please log in </value>
+    <comment>로그인 해주세요</comment>
+  </data>
+  <data name="rmadlfwjrdydghksdbf" xml:space="preserve">
+    <value>today's exchange rate</value>
+    <comment>금일 적용 환율</comment>
+  </data>
+  <data name="djqandnjswjdqh" xml:space="preserve">
+    <value>Staff info.</value>
+    <comment>업무원 정보</comment>
+  </data>
+  <data name="dkdlelcpzmfmfgowntpdy" xml:space="preserve">
+    <value>please click ID CHECK</value>
+    <comment>아이디체크를 해주셔야 합니다</comment>
+  </data>
+  <data name="ekaekdwkgbeowjsghkskdlapdlfwndgksksmsvlftnfhdlqfurgowntudigkqslek" xml:space="preserve">
+    <value>please type staff's email or phone number</value>
+    <comment>담당자 휴대전화나 이메일중 하나는 필수로 입력해 주셔야 합니다</comment>
+  </data>
+  <data name="dkdlelfmfqusrudgkfuausdkdlelcpzmfmfgowntudigkqslek" xml:space="preserve">
+    <value>please check your ID to change.</value>
+    <comment>아이디를 변경하려면 아이디 체크를 해주셔야 합니다</comment>
+  </data>
+  <data name="tnwjdgkfsodyddldjqttmqslek" xml:space="preserve">
+    <value>not changed</value>
+    <comment>수정할 내용이 없습니다</comment>
+  </data>
+  <data name="wjwkddhksfy" xml:space="preserve">
+    <value>Saved</value>
+    <comment>저장완료</comment>
+  </data>
+  <data name="anffbwjqtn" xml:space="preserve">
+    <value>Request</value>
+    <comment> 물류접수</comment>
+  </data>
+  <data name="xhdrhkswlsgod" xml:space="preserve">
+    <value>customs procedure</value>
+    <comment>통관진행</comment>
+  </data>
+  <data name="ghkanfehckrdprhksgksdkfflaaptpwlfmfqkedmtlrpTtmqslRk" xml:space="preserve">
+    <value>would you like to receive alarm message for arrival of freight? </value>
+    <comment>화물도착에 관한 알람메세지를 받으시겠습니까</comment>
+  </data>
+  <data name="tjdrhd" xml:space="preserve">
+    <value>success</value>
+    <comment>성공</comment>
+  </data>
+  <data name="anstjrhksfl" xml:space="preserve">
+    <value>manage document</value>
+    <comment>문서관리</comment>
+  </data>
+  <data name="audtpwkrtjd" xml:space="preserve">
+    <value>Write</value>
+    <comment>명세작성</comment>
+  </data>
+  <data name="anstjdufrl" xml:space="preserve">
+    <value>open</value>
+    <comment>문서열기</comment>
+  </data>
+  <data name="anffbrhksfl" xml:space="preserve">
+    <value>freight management </value>
+    <comment>물류관리</comment>
+  </data>
+  <data name="ckdrhrhksfl" xml:space="preserve">
+    <value>Storage</value>
+    <comment>창고관리</comment>
+  </data>
+  <data name="dhejrhksfl" xml:space="preserve">
+    <value>Order</value>
+    <comment>오더관리</comment>
+  </data>
+  <data name="wjdqhrhksfl" xml:space="preserve">
+    <value>Information management</value>
+    <comment>정보관리</comment>
+  </data>
+  <data name="ghltkwjdqh" xml:space="preserve">
+    <value>company information</value>
+    <comment>회사정보</comment>
+  </data>
+  <data name="rPwjdwjdqh" xml:space="preserve">
+    <value>Account info.</value>
+    <comment>계정정보</comment>
+  </data>
+  <data name="woanrhksfl" xml:space="preserve">
+    <value>Finance management</value>
+    <comment>재무관리</comment>
+  </data>
+  <data name="dkdlelsmsdkfvkqptrhktntwkakstkdydrksmdgkqslek" xml:space="preserve">
+    <value>only alphabets and numbers are available!</value>
+    <comment>아이디는 알파벳과 숫자만 사용가능합니다</comment>
+  </data>
+  <data name="dkdlelsmsdudanswkdhktntwkakstkdydgktlftndlTtmqslek" xml:space="preserve">
+    <value>only alphabets and numbers are available!</value>
+    <comment>아이디는 영문자와 숫자만 사용하실수 있습니다</comment>
+  </data>
+  <data name="djqanekaekdwkdkdlelrkdlaltkdydwnddlqslek" xml:space="preserve">
+    <value>Freight staff ID is aleady used. please type another ID</value>
+    <comment>업무담당자 아이디가 이미 사용중입니다</comment>
+  </data>
+  <data name="woanekaekdwkdkdlelrkdlaltkdydwnddlqslek" xml:space="preserve">
+    <value>Accountancy ID is being used. please Type another</value>
+    <comment>재무담당자 아이디가 이미 사용중입니다</comment>
+  </data>
+  <data name="djqanekaekdwkwjdqhemdfhr" xml:space="preserve">
+    <value>Freight staff Info.</value>
+    <comment>업무담당자 정보 등록</comment>
+  </data>
+  <data name="rkdlqwkwjdqhemdfhr" xml:space="preserve">
+    <value>subscribers' info write</value>
+    <comment>가입자 정보 등록</comment>
+  </data>
+  <data name="ghltkwjdqhemdfhr" xml:space="preserve">
+    <value>company information register</value>
+    <comment>회사 정보 등록</comment>
+  </data>
+  <data name="anffbekaekdwksmsvlftntkgkddlqslek" xml:space="preserve">
+    <value>please type staff for freight</value>
+    <comment>물류담당자는 필수사항입니다</comment>
+  </data>
+  <data name="anffbekaekdwkvotmdnjemsmsvlftntkgkddlqslek" xml:space="preserve">
+    <value>please type staff's password for freight</value>
+    <comment>물류담당자 패스워드는 필수사항입니다</comment>
+  </data>
+  <data name="anffbekaekdwktjdauddmsvlftntkgkddlqslek" xml:space="preserve">
+    <value>please type staff's name for freight</value>
+    <comment>물류담당자 성명은 필수사항입니다</comment>
+  </data>
+  <data name="anffbekaekdwkdkdlelrkeovydkdleldhkrkxtmqslek" xml:space="preserve">
+    <value>main id and sub id is same</value>
+    <comment>물류담당자 아이디가 대표아이디와 같습니다</comment>
+  </data>
+  <data name="dkdleldpsmsdudanswkdhktntwkakstkdydrksmdgkqslek" xml:space="preserve">
+    <value>only alphabets and numbers are available for ID!</value>
+    <comment>아이디에는 영문자와 숫자만 사용가능합니다</comment>
+  </data>
+  <data name="dkdlelsmsspwkdltkdaksrksmdgkqslek" xml:space="preserve">
+    <value>Id should be more than 4 letters.</value>
+    <comment>아이디는 네자 이상만 가능합니다</comment>
+  </data>
+  <data name="dlaltkdydwnddlsdkdleldlqslek" xml:space="preserve">
+    <value>The Account ID is Aleady being used.</value>
+    <comment>이미사용중인 아이디입니다</comment>
+  </data>
+  <data name="rkxdmsekf" xml:space="preserve">
+    <value>same month</value>
+    <comment>같은달</comment>
+  </data>
+  <data name="dnsthdrlrksdlf" xml:space="preserve">
+    <value>shipping days</value>
+    <comment>운송기간일</comment>
+  </data>
+  <data name="dkfodprlwoehlsaptpwlsmsanffbghltkwlrdnjsaksqhftndlTtmqslek" xml:space="preserve">
+    <value>Only staffs can see the writen message below!</value>
+    <comment>아래에 기재된 메세지는 물류회사 직원만 볼수 있습니다</comment>
+  </data>
+  <data name="cnfrhqkdqjqrhksfusrlxktkgkddmfdlrhtdpwjrdjwntpdy" xml:space="preserve">
+    <value>please write any other information about procedure of the released items here.</value>
+    <comment>출고방법 관련 기타사항을 이곳에 적어주세요</comment>
+  </data>
+  <data name="anffbqlrufwprhksfusahemsrlxktkgkddmsdlrhtdpwjrdjwntpdy" xml:space="preserve">
+    <value>please write any other information about shipping payment here.</value>
+    <comment>물류비 결제관련 모든 기타사항은 이곳에 적어주세요</comment>
+  </data>
+  <data name="wjqtnwmdtnwjd" xml:space="preserve">
+    <value>RequestForm modify</value>
+    <comment>접수증 수정</comment>
+  </data>
+  <data name="rhrorqjsghwjwkd" xml:space="preserve">
+    <value>save companycode </value>
+    <comment>고객번호 저장</comment>
+  </data>
+  <data name="tnwjdsodur" xml:space="preserve">
+    <value>modified history</value>
+    <comment>수정내역</comment>
+  </data>
+  <data name="vhwkdtnfid" xml:space="preserve">
+    <value>packing quatity</value>
+    <comment>포장수량</comment>
+  </data>
+  <data name="vhwkdeksdnl" xml:space="preserve">
+    <value>packing unit</value>
+    <comment>포장단위</comment>
+  </data>
+  <data name="dlanstjdmlsodyddmfhrnrwpanffbwjqtnfmfgkqslekdlfwjdrhkrufwpwhrjsemddmfdlqfurgowntpdy" xml:space="preserve">
+    <value>international freight will be registered by the contents of this document. please enter schedule and payment conditions.</value>
+    <comment>이 문서의 내용으로 국제물류 접수를 합니다 일정과 결제조건 등을 입력해주세요</comment>
+  </data>
+  <data name="goekdanstjrkdhkswjsgltkrwpehlqslek" xml:space="preserve">
+    <value>are you sure to delete this document? </value>
+    <comment>해당문서가 완전히 삭제됩니다</comment>
+  </data>
+  <data name="dlstho" xml:space="preserve">
+    <value>print</value>
+    <comment>인쇄</comment>
+  </data>
+  <data name="wjsthd" xml:space="preserve">
+    <value>SEND</value>
+    <comment> 전송</comment>
+  </data>
+  <data name="tkrwp" xml:space="preserve">
+    <value>delete</value>
+    <comment> 삭제</comment>
+  </data>
+  <data name="emdfhr" xml:space="preserve">
+    <value>register</value>
+    <comment>등록</comment>
+  </data>
+  <data name="wkrtjddlf" xml:space="preserve">
+    <value>Writen date</value>
+    <comment>작성일</comment>
+  </data>
+  <data name="anstjghkrdls" xml:space="preserve">
+    <value>confirm the document </value>
+    <comment>문서확인</comment>
+  </data>
+  <data name="wpahr" xml:space="preserve">
+    <value>Title</value>
+    <comment>제목</comment>
+  </data>
+  <data name="rlwhsghkwndhkrjatorehlsghkwnrktjfhdusrufehlqslektjfhdmlrjfocjdpcnrkehlqslek" xml:space="preserve">
+    <value>previous shippers and searched shippers will be connected and added into their customer's accounts</value>
+    <comment>기존화주와 검색된 화주가 서로 연결됩니다 서로의 거래처에 추가됩니다</comment>
+  </data>
+  <data name="anstjtnwjd" xml:space="preserve">
+    <value>modify document</value>
+    <comment>문서수정</comment>
+  </data>
+  <data name="tofhwjwjd" xml:space="preserve">
+    <value>newly save</value>
+    <comment>새로저장</comment>
+  </data>
+  <data name="wndfid" xml:space="preserve">
+    <value>Weight</value>
+    <comment>중량</comment>
+  </data>
+  <data name="cpwjr" xml:space="preserve">
+    <value>Volume</value>
+    <comment>체적</comment>
+  </data>
+  <data name="dnsthddlfwjd" xml:space="preserve">
+    <value>shipping schedule</value>
+    <comment>운송일정</comment>
+  </data>
+  <data name="cnfrhdPwjd" xml:space="preserve">
+    <value>Arrival date</value>
+    <comment>출고예정</comment>
+  </data>
+  <data name="sodur" xml:space="preserve">
+    <value>history</value>
+    <comment>내역</comment>
+  </data>
+  <data name="wjqtndPdirdhksfy" xml:space="preserve">
+    <value>registerd</value>
+    <comment>접수예약 완료</comment>
+  </data>
+  <data name="qkfghkdlsdnsdla" xml:space="preserve">
+    <value>Shipper's FreightCharge</value>
+    <comment>발화인 운임</comment>
+  </data>
+  <data name="tngkdlsdnsdla" xml:space="preserve">
+    <value>Consignee's FreightCahrge</value>
+    <comment>수하인 운임</comment>
+  </data>
+  <data name="aptpwlqhsorl" xml:space="preserve">
+    <value>Send MSG</value>
+    <comment>메세지보내기</comment>
+  </data>
+  <data name="aptpwlqkfthdsodur" xml:space="preserve">
+    <value>MSG HISTORY</value>
+    <comment>메세지 발송내역</comment>
+  </data>
+  <data name="djqandusfkr" xml:space="preserve">
+    <value>Messages for Business</value>
+    <comment>업무연락</comment>
+  </data>
+  <data name="djqcpemdfhr" xml:space="preserve">
+    <value>Company Register</value>
+    <comment>업체등록</comment>
+  </data>
+  <data name="dnsdlaghkrwjd" xml:space="preserve">
+    <value>Set Payment</value>
+    <comment>운임확정</comment>
+  </data>
+  <data name="dnsdlatnwjd" xml:space="preserve">
+    <value>modify Payment</value>
+    <comment>운임수정</comment>
+  </data>
+  <data name="fileupload" xml:space="preserve">
+    <value>File Upload</value>
+    <comment>File Upload</comment>
+  </data>
+  <data name="tkdtpqhrl" xml:space="preserve">
+    <value>Detail view</value>
+    <comment>상세보기</comment>
+  </data>
+  <data name="wjqtndlftl" xml:space="preserve">
+    <value>received date</value>
+    <comment>접수일시</comment>
+  </data>
+  <data name="xhdrhks" xml:space="preserve">
+    <value>Custom Clearance</value>
+    <comment>통관</comment>
+  </data>
+  <data name="dlqrhdhksfy" xml:space="preserve">
+    <value>stocked</value>
+    <comment>입고완료</comment>
+  </data>
+  <data name="dnsdlacorwjddhksfy" xml:space="preserve">
+    <value>shipping bill</value>
+    <comment>운임책정완료</comment>
+  </data>
+  <data name="dnsthddPdircnrk" xml:space="preserve">
+    <value>booking</value>
+    <comment>운송예약</comment>
+  </data>
+  <data name="ektlckdrhfh" xml:space="preserve">
+    <value>back to storage</value>
+    <comment>다시창고로</comment>
+  </data>
+  <data name="ghkanftlerl" xml:space="preserve">
+    <value>Cargo stowage</value>
+    <comment>화물싣기</comment>
+  </data>
+  <data name="rhksqnrktpghkrwjd" xml:space="preserve">
+    <value>confirm tariff</value>
+    <comment>관부가세 확정</comment>
+  </data>
+  <data name="audtptnwjd" xml:space="preserve">
+    <value>Modify </value>
+    <comment>명세수정</comment>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>COMMERCIAL INVOICE</value>
+    <comment>상업송장</comment>
+  </data>
+  <data name="PackingList" xml:space="preserve">
+    <value>PACKING LIST</value>
+    <comment>포장명세</comment>
+  </data>
+  <data name="wjwkd" xml:space="preserve">
+    <value>Save</value>
+    <comment>저장</comment>
+  </data>
+  <data name="worhtnwjd" xml:space="preserve">
+    <value>modify inventories</value>
+    <comment>재고수정</comment>
+  </data>
+  <data name="ckrqnf" xml:space="preserve">
+    <value>collect</value>
+    <comment>착불</comment>
+  </data>
+  <data name="cnfrhwl" xml:space="preserve">
+    <value>Address</value>
+    <comment>출고지</comment>
+  </data>
+  <data name="gusqnf" xml:space="preserve">
+    <value>prepaid</value>
+    <comment>현불</comment>
+  </data>
+  <data name="qock" xml:space="preserve">
+    <value>delivery schedule</value>
+    <comment>배차</comment>
+  </data>
+  <data name="rmador" xml:space="preserve">
+    <value>Price</value>
+    <comment>금액</comment>
+  </data>
+  <data name="tariff" xml:space="preserve">
+    <value>tariff</value>
+  </data>
+  <data name="DaeNapDone" xml:space="preserve">
+    <value>대납완료</value>
+  </data>
+  <data name="DaeNapHold" xml:space="preserve">
+    <value>대납지시</value>
+  </data>
+  <data name="rptlvks" xml:space="preserve">
+    <value>IL Center</value>
+  </data>
+  <data name="qothdwnsql" xml:space="preserve">
+    <value>prepare Delivery</value>
+  </data>
+  <data name="tndlqtjfb" xml:space="preserve">
+    <value>document</value>
+  </data>
+  <data name="rjfoaudtpvy" xml:space="preserve">
+    <value>Trading Schedule</value>
+  </data>
+  <data name="tjsxor" xml:space="preserve">
+    <value>select</value>
+  </data>
+  <data name="wpvnaaud" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="rjfosodurekdnsqkerl" xml:space="preserve">
+    <value>Transport History Down</value>
+  </data>
+  <data name="cjdrnrmador" xml:space="preserve">
+    <value>Charge</value>
+    <comment>청구금액</comment>
+  </data>
+  <data name="ckdor" xml:space="preserve">
+    <value>Difference Charge</value>
+    <comment>차액</comment>
+  </data>
+  <data name="cnfrheorl" xml:space="preserve">
+    <value>Waiting</value>
+    <comment>출고대기</comment>
+  </data>
+  <data name="dlqrmador" xml:space="preserve">
+    <value>Deposit</value>
+    <comment>입금액</comment>
+  </data>
+  <data name="rhksfldjqcp" xml:space="preserve">
+    <value>Management company</value>
+    <comment>관리업체</comment>
+  </data>
+  <data name="rjfocj" xml:space="preserve">
+    <value>Customers</value>
+    <comment>거래처</comment>
+  </data>
+  <data name="rPtksgkqslek" xml:space="preserve">
+    <value>Calculated as follows</value>
+    <comment>아래와 같이 계산합니다</comment>
+  </data>
+  <data name="andurthdrma" xml:space="preserve">
+    <value>trade price</value>
+    <comment>무역송금</comment>
+  </data>
+  <data name="andurthdrmaETC" xml:space="preserve">
+    <value>Thank you receive the account information transfer listed (bank name, branch opening, account number, account holder, amount)</value>
+  </data>
+  <data name="wjwkdqkdqjq" xml:space="preserve">
+    <value>Trade transfer receipt attachments</value>
+  </data>
+  <data name="ruddbwldnsthdqlghkrwjd" xml:space="preserve">
+    <value>Confirm Shipping Fee of passage</value>
+    <comment>경유지 운송비 확정</comment>
+  </data>
+  <data name="wndmltkgkd" xml:space="preserve">
+    <value>The program is optimized for Explorer 8 or later</value>
+  </data>
+  <data name="wktpgkswndmltkgkd" xml:space="preserve">
+    <value>* If the top menu is normally visible aneusil &lt;br&gt; Explorer 8 or higher installed version, please. &lt;br&gt; 
+* Explorer 8 or later, use the menu at the top of the &lt;br&gt; does he look normal if you did &lt;br&gt; release, please check the Compatibility View. &lt;br&gt; 
+* Tools &gt;&gt; Compatibility View Settings has been added to nn21.net please turn off if &lt;br&gt;. &lt;br&gt; &lt;br&gt; 
+&lt;strong&gt; * other questions, please contact us &lt;/ strong&gt;</value>
+  </data>
+  <data name="wktpgl" xml:space="preserve">
+    <value>[Detal]</value>
+  </data>
+  <data name="ehdqnrwlrn" xml:space="preserve">
+    <value>동북지구</value>
+  </data>
+  <data name="eksrk" xml:space="preserve">
+    <value>단가</value>
+  </data>
+  <data name="ghkehdwlrn" xml:space="preserve">
+    <value>화동지구</value>
+  </data>
+  <data name="ghkqnrwlrn" xml:space="preserve">
+    <value>화북지구</value>
+  </data>
+  <data name="ghkskawlrn" xml:space="preserve">
+    <value>화남지구</value>
+  </data>
+  <data name="tkdekawjsghk" xml:space="preserve">
+    <value>상담전화</value>
+  </data>
+  <data name="vnaaudwowlf" xml:space="preserve">
+    <value>품명(재질)</value>
+  </data>
+  <data name="wjqtnaudtp" xml:space="preserve">
+    <value>접수명세</value>
+  </data>
+  <data name="tnfid" xml:space="preserve">
+    <value>수량</value>
+  </data>
+  <data name="dPdir" xml:space="preserve">
+    <value>Reserve</value>
+  </data>
+  <data name="zjsxpdlsj" xml:space="preserve">
+    <value>Container</value>
+    <comment>컨테이너</comment>
+  </data>
+  <data name="zjsxpdlsjtodtjd" xml:space="preserve">
+    <value>Create Container </value>
+    <comment>컨테이너 생성</comment>
+  </data>
+  <data name="ckdrh" xml:space="preserve">
+    <value>Storage</value>
+    <comment>창고</comment>
+  </data>
+  <data name="wltk" xml:space="preserve">
+    <value>Branch</value>
+    <comment>지사</comment>
+  </data>
+</root>
